@@ -30,6 +30,7 @@ import socket
 import string
 import time
 import zlib
+import logging
 
 from cloudinit import log as logging
 from cloudinit import sources
