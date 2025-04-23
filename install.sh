@@ -9,7 +9,7 @@ set -e
 #
 
 # The repository from which to fetch the cloud-init datasource and config files.
-REPO_SLUG="${REPO_SLUG:-https://raw.githubusercontent.com/vmware/cloud-init-vmware-guestinfo}"
+REPO_SLUG="${REPO_SLUG:-https://raw.githubusercontent.com/lyoben/cloud-init-vmware-guestinfo/refs/heads/master/DataSourceVMwareGuestInfo.py}"
 
 # The git reference to use. This can be a branch or tag name as well as a commit ID.
 GIT_REF="${GIT_REF:-master}"
